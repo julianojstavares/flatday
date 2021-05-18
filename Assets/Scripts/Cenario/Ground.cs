@@ -8,19 +8,19 @@ public class Ground : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D other) 
     {
-        GameObject_Name(other, "Player");
+        GameObject_Name(other, "Player", true);
     }
 
     private void OnCollisionExit2D(Collision2D other) 
     {
-        //GameObject_Name(other, "Player");
+        GameObject_Name(other, "Player", false);
     }
 
-    private void GameObject_Name(Collision2D other, string name)
+    private void GameObject_Name(Collision2D other, string name, bool grounded)
     {
         if(other.gameObject.name == name)
         {
-            onGround = !onGround;
+            onGround = grounded;
         }
     }
 }
