@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: 6318fc14fd9a9a4478dc59fb8b05ad8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3601169155943092578
+    second: RamonaRun-sheet_0
+  - first:
+      213: 2480453863578921064
+    second: RamonaRun-sheet_1
+  - first:
+      213: -2078396496987391319
+    second: RamonaRun-sheet_2
+  - first:
+      213: -1599629103575353270
+    second: RamonaRun-sheet_3
+  - first:
+      213: -4867928732602467033
+    second: RamonaRun-sheet_4
+  - first:
+      213: 3908612509518174458
+    second: RamonaRun-sheet_5
+  - first:
+      213: -5221440450935236963
+    second: RamonaRun-sheet_6
+  - first:
+      213: -3874427905713375593
+    second: RamonaRun-sheet_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 3
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RamonaRun-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 5
+        width: 121
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 60.5, y: -18}
+        - {x: 60.5, y: 71}
+        - {x: 36.5, y: 76}
+        - {x: -22.5, y: 76}
+        - {x: -60.5, y: 20}
+        - {x: -60.5, y: -58}
+        - {x: -50.5, y: -76}
+        - {x: 3.5, y: -76}
+        - {x: 14.5, y: -51}
+        - {x: 14.5, y: -40}
+        - {x: 45.5, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e2be38bb3160ec0800000000000000
+      internalID: -3601169155943092578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RamonaRun-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 5
+        width: 108
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 47, y: 83.5}
+        - {x: -18, y: 83.5}
+        - {x: -43, y: 1.5}
+        - {x: -23, y: -8.5}
+        - {x: -15, y: -16.5}
+        - {x: -17, y: -14.5}
+        - {x: -32, y: -10.5}
+        - {x: -54, y: -22.5}
+        - {x: -54, y: -51.5}
+        - {x: -46, y: -78.5}
+        - {x: -41, y: -83.5}
+        - {x: -19, y: -83.5}
+        - {x: 27, y: -54.5}
+        - {x: 54, y: -25.5}
+        - {x: 54, y: 81.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868ed5c95a75c6220800000000000000
+      internalID: 2480453863578921064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RamonaRun-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 23
+        width: 121
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 49.5, y: 1}
+        - {x: 53.5, y: 1}
+        - {x: 60.5, y: 7}
+        - {x: 60.5, y: 55}
+        - {x: 56.5, y: 73}
+        - {x: -10.5, y: 73}
+        - {x: -60.5, y: -16}
+        - {x: -60.5, y: -73}
+        - {x: 60.5, y: -73}
+        - {x: 60.5, y: 4}
+        - {x: 55.5, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa76a6d56d0823e0800000000000000
+      internalID: -2078396496987391319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RamonaRun-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 15
+        width: 116
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 76}
+        - {x: -29, y: 17}
+        - {x: -21, y: 6}
+        - {x: -18, y: 2}
+        - {x: -23, y: 4}
+        - {x: -30, y: 5}
+        - {x: -54, y: -5}
+        - {x: -58, y: -18}
+        - {x: -58, y: -54}
+        - {x: -57, y: -55}
+        - {x: -6, y: -76}
+        - {x: 43, y: -76}
+        - {x: 58, y: -32}
+        - {x: 58, y: 76}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48b3053ec9fcc9e0800000000000000
+      internalID: -1599629103575353270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RamonaRun-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 10
+        width: 118
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -42, y: 73.5}
+        - {x: -59, y: 31.5}
+        - {x: -59, y: -67.5}
+        - {x: -33, y: -73.5}
+        - {x: 17, y: -73.5}
+        - {x: 59, y: -20.5}
+        - {x: 59, y: 73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dff4deb94a17cb0800000000000000
+      internalID: -4867928732602467033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RamonaRun-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 10
+        width: 103
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19.5, y: 81}
+        - {x: -51.5, y: 5}
+        - {x: -51.5, y: -80}
+        - {x: -49.5, y: -81}
+        - {x: 5.5, y: -81}
+        - {x: 51.5, y: -39}
+        - {x: 51.5, y: 79}
+        - {x: 42.5, y: 81}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af89a726e5e2e3630800000000000000
+      internalID: 3908612509518174458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RamonaRun-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 23
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 54, y: 6}
+        - {x: 49, y: 2}
+        - {x: 54, y: 7}
+        - {x: 59, y: 9}
+        - {x: 59, y: 64}
+        - {x: 47, y: 73}
+        - {x: -18, y: 73}
+        - {x: -59, y: 18}
+        - {x: -59, y: -67}
+        - {x: -26, y: -73}
+        - {x: 48, y: -73}
+        - {x: 57, y: -58}
+        - {x: 59, y: -40}
+        - {x: 59, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9656220397b987b0800000000000000
+      internalID: -5221440450935236963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RamonaRun-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 15
+        width: 113
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 56.5, y: -10}
+        - {x: 54.5, y: 0}
+        - {x: 48.5, y: 4}
+        - {x: 45.5, y: 4}
+        - {x: 52.5, y: 6}
+        - {x: 56.5, y: 8}
+        - {x: 56.5, y: 61}
+        - {x: 52.5, y: 76}
+        - {x: -16.5, y: 76}
+        - {x: -26.5, y: 75}
+        - {x: -56.5, y: 21}
+        - {x: -56.5, y: -55}
+        - {x: 1.5, y: -76}
+        - {x: 28.5, y: -76}
+        - {x: 35.5, y: -67}
+        - {x: 37.5, y: -62}
+        - {x: 56.5, y: -22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796f71ce8544b3ac0800000000000000
+      internalID: -3874427905713375593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
