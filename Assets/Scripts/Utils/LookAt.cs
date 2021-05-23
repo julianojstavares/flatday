@@ -2,12 +2,9 @@ using UnityEngine;
 
 public class LookAt : MonoBehaviour
 {
-    private Transform target;
+    public Transform targetCircle;
 
-    private void Awake() {
-        target = GameObject.Find("Cenário").transform;
-    }
     private void Update() {
-        transform.up = (target.position - transform.position)*-1;
+        transform.up = (targetCircle.position - transform.position)*-1;
     }
 }
