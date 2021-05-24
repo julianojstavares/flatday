@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class SpawnOnEarth : MonoBehaviour
 {
-    public InstantiateChild instantiate;
+    public InstantiateChild instantiateClass;
 
     [Header("Time to Spawn")]
     public float ttsHouse = 0;
+    public float timeCountHouse = 0;
 
     private void FixedUpdate() 
     {
@@ -14,11 +15,12 @@ public class SpawnOnEarth : MonoBehaviour
 
     private void CreateHouses()
     {
-        ttsHouse += Time.deltaTime;
-        if(ttsHouse > 5)
+        timeCountHouse += Time.deltaTime;
+        if(timeCountHouse > ttsHouse)
         {
-            ttsHouse = 0;
-            Transform house = instantiate.CreateTransform(0);
+            timeCountHouse = 0;
+            Transform house = instantiateClass.CreateTransform(0);
+            house.localScale = new Vector3(1, 1, 1);
         }
         
     }

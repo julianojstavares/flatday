@@ -6,6 +6,20 @@ public class CollisionDetect : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other) {
         Debug.Log(other.gameObject.name);
         if(other != null)
-            changePosition.Move(other.transform);
+        {
+            //MoveObject(other);
+            DeleteObject(other.gameObject);
+        }
+            
+    }
+
+    private void MoveObject(Collider2D other)
+    {
+        changePosition.Move(other.transform);
+    }
+
+    private void DeleteObject(GameObject other)
+    {
+        Destroy(other);
     }
 }

@@ -2,11 +2,19 @@ using UnityEngine;
 
 public class ChangePosition : MonoBehaviour
 {
-    public Transform target;
-    public Transform earth;
+    public Transform earthStart;
+    public Transform roadStart;
 
     public void Move(Transform obj)
     {
-        obj.position = target.position;
+        if(obj.tag == "EarthCircle")
+        {
+            obj.position = earthStart.position;
+        }
+        
+        if(obj.tag == "RoadCircle")
+        {
+            obj.position = roadStart.position;
+        }
     }
 }
