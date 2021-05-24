@@ -230,8 +230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e169455ee47d7c428498b8ca03f24ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1375084969}
-  earth: {fileID: 547968979}
+  earthStart: {fileID: 1089289264}
+  roadStart: {fileID: 1375084969}
 --- !u!114 &29695987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,7 +445,7 @@ GameObject:
   - component: {fileID: 416510345}
   m_Layer: 0
   m_Name: Road_Circle
-  m_TagString: RoadCircle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 547968982}
   m_Layer: 0
   m_Name: Earth_Circle
-  m_TagString: EarthCircle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -727,7 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfa92c7261d87714b907029635da7afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.5
   amount: 10
 --- !u!1 &1057484613
 GameObject:
@@ -860,8 +860,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089289263}
-  m_LocalRotation: {x: -0, y: -0, z: 0.35635862, w: 0.9343493}
-  m_LocalPosition: {x: 991.4, y: -557.6, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.3533959, w: 0.93547386}
+  m_LocalPosition: {x: 989.3001, y: -560.50006, z: 0}
   m_LocalScale: {x: 0.9998746, y: 0.9998746, z: 0.99987465}
   m_Children: []
   m_Father: {fileID: 1954834535}
@@ -951,10 +951,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1089289263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a243d27bc9dc01243b6afe3d36ff29b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a8e3c960f272c342abac4d180d2b856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instantiate: {fileID: 1089289266}
+  instantiateClass: {fileID: 1089289266}
+  ttsHouse: 10
+  timeCountHouse: 0
 --- !u!1 &1223640760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,6 +1098,7 @@ GameObject:
   - component: {fileID: 1375084970}
   - component: {fileID: 1375084971}
   - component: {fileID: 1375084973}
+  - component: {fileID: 1375084974}
   m_Layer: 0
   m_Name: StartPosition
   m_TagString: Untagged
@@ -1110,8 +1113,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375084968}
-  m_LocalRotation: {x: -0, y: -0, z: 0.35635862, w: 0.9343493}
-  m_LocalPosition: {x: 1003.00024, y: -551.8062, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.35357055, w: 0.9354079}
+  m_LocalPosition: {x: 996.10004, y: -553.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1442757828}
@@ -1192,6 +1195,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCircle: {fileID: 416510344}
+--- !u!114 &1375084974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375084968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea4b229916c8ab4da8feca2a73074f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instantiateClass: {fileID: 1375084971}
+  ttsBoy: 5
+  timeCountBoy: 0
 --- !u!1 &1442757827
 GameObject:
   m_ObjectHideFlags: 0
