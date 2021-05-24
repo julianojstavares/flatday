@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4174563435016344332}
   - component: {fileID: 4174563435016344562}
   - component: {fileID: 4174563435016344333}
+  - component: {fileID: 4572775976809636737}
   m_Layer: 0
   m_Name: House1
-  m_TagString: Untagged
+  m_TagString: EarthCircle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,3 +97,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCircle: {fileID: 0}
+--- !u!61 &4572775976809636737
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4174563435016344335}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 86.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 201, y: 173}
+    newSize: {x: 128, y: 105.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 201, y: 173}
+  m_EdgeRadius: 0
