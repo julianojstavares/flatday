@@ -17,7 +17,7 @@ public class Jump : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0) && ground.onGround == true)
         {
             rb.AddForce(transform.up * force * amount);
-            Debug.Log("Jump");
+            //Debug.Log("Jump");
         }
     }
 }

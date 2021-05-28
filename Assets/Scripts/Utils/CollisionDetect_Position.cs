@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class CollisionDetect : MonoBehaviour
+public class CollisionDetect_Position : MonoBehaviour
 {
     public ChangePosition changePosition;
     private void OnTriggerStay2D(Collider2D other) {
-        Debug.Log(other.gameObject.name);
+        //Debug.Log(other.gameObject.name);
         if(other != null)
         {
             //MoveObject(other);
