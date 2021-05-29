@@ -1,18 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class LIfeHud : MonoBehaviour
+public class LifeHud : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public RectTransform panelLife;
+    public RectTransform heart;
+
+    public void AddHeart()
     {
-        
+        if(panelLife.childCount < 3)
+        {
+            RectTransform heartUI = Instantiate(heart);
+            heartUI.SetParent(panelLife);
+            heartUI.localPosition = new Vector3(heartUI.transform.position.x, heartUI.transform.position.y, 0);
+            heartUI.localScale = new Vector3(1,1,1);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoseHeart()
     {
-        
+        if(panelLife.childCount > 0)
+        {
+            GameObject heart = panelLife.GetChild(0).gameObject;
+            Destroy(heart);
+        }
+    }
+
+    private void Awake() {
+        AddHeart();
+        AddHeart();
+        AddHeart();
     }
 }

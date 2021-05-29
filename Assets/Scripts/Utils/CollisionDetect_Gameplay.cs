@@ -2,16 +2,35 @@ using UnityEngine;
 
 public class CollisionDetect_Gameplay : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other) 
+    public Transform player;
+    private Life playerLife;
+
+    private void Start() 
     {
-        PlayerCollider(other.transform);
+        playerLife = player.GetComponent<Life>();
     }
 
-    private void PlayerCollider(Transform obj)
+    private void OnCollisionEnter2D(Collision2D other) 
     {
-        if(obj.tag == "Player")
+        EnemyCollision(other.gameObject.name);
+        HumanHeartCollision(other.gameObject);
+    }
+
+    private void EnemyCollision(string name)
+    {
+        if(name=="Boy(Clone)")
         {
-
-        };
+            playerLife.LoseLife();
+        }
     }
+
+    private void HumanHeartCollision(GameObject heart)
+    {
+        if(heart.name=="HumanHeart(Clone)")
+        {
+            playerLife.AddLife();
+            Destroy(heart);
+        }
+    }
+
 }
