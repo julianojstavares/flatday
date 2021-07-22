@@ -5,6 +5,14 @@ public class CollisionDetect_Gameplay : MonoBehaviour
     public Transform player;
     private Life playerLife;
 
+    private AudioSource audioSource;
+
+    public AudioClips sfx;
+
+    private void Awake() {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void Start() 
     {
         playerLife = player.GetComponent<Life>();
@@ -21,6 +29,8 @@ public class CollisionDetect_Gameplay : MonoBehaviour
         if(name=="Boy(Clone)")
         {
             playerLife.LoseLife();
+            audioSource.clip = sfx.enemy;
+            audioSource.Play();
         }
     }
 
@@ -28,6 +38,8 @@ public class CollisionDetect_Gameplay : MonoBehaviour
     {
         if(heart.name=="HumanHeart(Clone)")
         {
+            audioSource.clip = sfx.player_AddLife;
+            audioSource.Play();
             playerLife.AddLife();
             Destroy(heart);
         }

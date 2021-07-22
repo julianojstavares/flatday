@@ -7,7 +7,7 @@ public class LifeHud : MonoBehaviour
 
     public void AddHeart()
     {
-        if(panelLife.childCount < 3)
+        if(panelLife.childCount <= 3)
         {
             RectTransform heartUI = Instantiate(heart);
             heartUI.SetParent(panelLife);
